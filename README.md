@@ -34,7 +34,7 @@ Ao executar o programa, as APIs estarão disponíveis nos seguintes endereços
 * custoCargo
 	* Disponível no endpoint http://127.0.0.1:8080/custoCargo, recebe um @RequestBody List\<Funcionario>. Exemplo no Insomnia:
 	
-	![Insomnia](https://i.ibb.co/8Bk1KBJ/Arch-Labs-2019-05-30-08-1366x768.png)
+	![Insomnia](https://i.ibb.co/VN6fjNd/Arch-Labs-2019-05-30-08-1366x768.png)
 	
 * custoDepartamento
 	* Disponível no endpoint http://127.0.0.1:8080/custoCargo, recebe um @RequestBody List\<Funcionario>. 
