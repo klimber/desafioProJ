@@ -8,7 +8,7 @@ public class MyFindArray implements FindArray {
 	// Para cada recorte que for igual ao 2do array, salva a posição do 1ro array
 	public int findArray(int[] array, int[] subArray) {
 		int position = -1;
-		for (int x = 0; x < array.length - subArray.length; x++) {
+		for (int x = 0; x < array.length - subArray.length+1; x++) {
 			if (Arrays.equals(Arrays.copyOfRange(array, x, x + subArray.length), subArray)) {
 				position = x;
 			}
