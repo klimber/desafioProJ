@@ -33,7 +33,9 @@ Ao executar o programa, as APIs estarão disponíveis nos seguintes endereços
 	* Disponível no endpoint http://127.0.0.1:8080/findChar, recebe um @RequestBody String. Exemplo usando curl: `curl --request GET 127.0.0.1:8080/findChar -d stress` deve retornar "t"
 * custoCargo
 	* Disponível no endpoint http://127.0.0.1:8080/custoCargo, recebe um @RequestBody List\<Funcionario>. Exemplo no Insomnia:
-	![Insomnia](https://ibb.co/1zLwZsV)
+	
+	![Insomnia](https://i.ibb.co/8Bk1KBJ/Arch-Labs-2019-05-30-08-1366x768.png)
+	
 * custoDepartamento
 	* Disponível no endpoint http://127.0.0.1:8080/custoCargo, recebe um @RequestBody List\<Funcionario>. 
 
@@ -42,7 +44,7 @@ Ao executar o programa, as APIs estarão disponíveis nos seguintes endereços
 
 Foram implementados alguns testes durante o desenvolvimento do desafio, atingindo o coverage a seguir:
 
-![Coverage](https://ibb.co/5ryt8PJ)
+![Coverage](https://i.ibb.co/bsZqBkG/Arch-Labs-2019-05-30-55-1366x768.png)
 
 ### Tipos de teste
 
